@@ -1,0 +1,121 @@
+body {
+    max-width: 90%;
+    margin-left: 40px;
+    margin-right: 10px;
+    background: linear-gradient(90deg, #ffffff, #e1e1f9);
+    background-image: url('./static/kaja-reichardt-xtFUy10amDs-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    background-position: right;
+}
+
+header > h1 {
+    background-color: yellow;
+}
+
+p {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(74, 41, 41);
+    font-size:large;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+blockquote {
+    max-width:50%;
+    margin-left:30%;
+    margin-right:30%;
+    font-size:160% !important;
+    background-color:rgb(235, 230, 230);
+    border-left:3px solid firebrick ;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style:italic;
+}
+
+.neighbours {
+    border-left:3px solid rgb(14, 133, 97) ;
+}
+
+.farmer {
+    border-left:3px solid rgb(207, 232, 65) ;
+}
+
+a {
+    font-size: large;
+    color:darkblue;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    background-color: rgb(159, 213, 223);
+    color: black;
+    font-weight:bold;
+}
+
+a:visited {
+    color: rgb(77, 2, 2);
+}
+
+tag {
+    text-transform: uppercase;
+}
+
+tag.good {
+    color : green;
+}
+
+tag.bad {
+    color: red;
+}
+
+img {
+    float:left;
+    max-width:50%;
+    max-height: auto;
+    margin-right: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-direction;
+}
+
+.flex-container {
+    text-align: justify;
+}
+
+table tr {
+    background-color : white;
+}
+
+table tr:nth-child(even) {
+    background-color: grey;
+}
+
+ul>li:first-of-type {
+    background-image: url("./static/bien.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-left: 30px;
+}
+
+ul>li:nth-child(2) {
+    background-image: url("./static/mal.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-left: 30px;
+}
+
+ul>li:nth-child(3) {
+    background-image: url("./static/chat.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-left: 30px;
+}
