@@ -82,7 +82,7 @@ img {
     margin-right: 30px;
     display:flex;
     flex-direction: column;
-    justify-content:flex-direction;
+    justify-content:flex-start;
 }
 
 .flex-container {
